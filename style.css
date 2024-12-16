@@ -30,7 +30,7 @@ button {
 }
 
 @media (max-width:768px) {
-  .header { 
+  .header {
     text-align: center;
   }
 }
@@ -150,7 +150,7 @@ button {
   width:224px
 }
 
-.task.task_edit-mode 
+.task.task_edit-mode
 .task__label {
   display:none;
 }

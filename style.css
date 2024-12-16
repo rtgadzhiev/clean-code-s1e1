@@ -5,18 +5,18 @@ body {
 }
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0;
 }
 
 li,
 h3 {
-  list-style:none;
+  list-style: none;
 }
 
 input,
 button {
-  outline:none;
+  outline: none;
 }
 
 .container {
@@ -134,7 +134,7 @@ button {
 }
 
 .task__input {
-  display:none;
+  display: none;
   width: 226px;
 }
 
@@ -146,11 +146,11 @@ button {
 
 .task.task_edit-mode
 .task__input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px;
 }
 
 .task.task_edit-mode
 .task__label {
-  display:none;
+  display: none;
 }

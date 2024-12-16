@@ -134,7 +134,8 @@ button {
 }
 
 .task__input {
-  width: 226px
+  display:none;
+  width: 226px;
 }
 
 .completed-tasks__list
@@ -143,16 +144,13 @@ button {
   color: #888;
 }
 
-/* Edit Task */
-ul li input[type="text"] {
-  display:none
-}
-
-ul li.task_edit-mode input[type="text"] {
+.task.task_edit-mode
+.task__input {
   display:inline-block;
   width:224px
 }
 
-ul li.task_edit-mode label {
+.task.task_edit-mode 
+.task__label {
   display:none;
 }
